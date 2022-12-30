@@ -1,0 +1,103 @@
+*{
+    margin: 0%;
+}
+.bar{
+   
+    width:250px;
+
+    height:350px;
+background-color: rgba(92, 92, 103, 0.644);
+border-radius: 20px;
+
+  
+    
+}
+body{
+    background-image: url(../style/background.jpg);
+    background-size: cover;
+    display: flex;
+    
+}
+.main{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+   
+}
+
+.pebble{
+    width: 100%;
+   
+    height: 30%;
+     border-radius: 90px;
+
+}
+.pebble img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 20px;
+}
+.profile{
+
+    position: absolute;
+
+}
+
+.profile img{
+
+    width:100px;
+
+    height:100px;
+
+    border-radius: 50%;
+
+    position: absolute;
+
+    top: -60px;
+
+    left: 76px;
+
+}
+.content{
+    position: relative;
+    top:40px;
+    left:45px;
+    color: rgba(2, 8, 8, 0.852);
+    
+}
+.content h3{
+    left:90px;
+    
+}
+.tags
+{
+    position: relative;
+    top:80px;
+    left:45px;
+    color: rgba(1, 2, 2, 0.852);
+    display: flex;   
+    justify-content: space-between;
+   left: 0%;
+  size: 30px;
+}
+.num{
+    position: relative;
+    top:100px;
+    left:45px;
+    color: rgba(3, 24, 24, 0.852);
+    display: flex;   
+    justify-content: space-around;
+   left: 5%;
+
+}
+.button{
+background-color: blue;
+width:10px;
+height: auto;
+margin-top: 120px;
+margin-left: 95px;
+}
