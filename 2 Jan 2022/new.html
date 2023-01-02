@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id = 'p1'>first paragraph</p>
+    <p>Second Paragraph</p>
+    <p>Third paragraph</p>
+    <p>Fourth Paragraph</p>
+    <input id ='test' type="checkbox" checked>select this,<br>
+    <input type="text" id="email" value="adff">
+    <!-- <p id = 'p1'>Hello world</p>. -->
+    <!-- <button onclick="handleClick(event)">click me</button>
+    <button onclick="handleClick(event)">click me</button> -->
+    <!-- <p onclick="handleClick(event)">today is monday</p> -->
+    <script>
+        let res = document.getElementById('test').getAttribute('type');
+        document.write(res);
+        document.getElementById('test').setAttribute('checked' , 'checked');
+        document.getElementById('email').setAttribute('value' , 'anaha@gmail.com');
+        // var e = document.getElementsByTagName('p');
+        // for (let i = 0; i < e.length; i++) {
+        //     const element = e[i];
+            
+        //     // element.innerText = 'new text';
+            
+        // }
+        // function handleClick(e){
+        //    console.log(e);
+        //    e.target.innerText='Clicked';
+        //    e.target.style.color='green';
+        // }
+        // let e = document.getElementById('p1');
+        // e.style.color = 'blue';
+        // e.style.fontSize = '25px';
+        // e.style.textAlign = 'center';
+        // e.style.fontWeight = 'bold';
+        // const element = document.getElementById('p1');
+        // console.log(element);
+        // element.style.color = 'red';
+        // element.innerText='new text';
+        // console.log(element.innerText);
+    // document.write('<h1>hello world</h1>');
+    //     let data = 'A message from Js';
+    //     console.log(data);
+    
+    //     var data1 = {
+    //         message: 'Hello world',
+    //         language: 'English'
+    //     };
+        
+    //     console.log(data1);
+    //     console.table(data1);
+    //     console.error('this is an error');
+    //     console.info('this is user 1');
+    //     console.warn('password need 6 characters');
+        
+    // 
+   
+    // let option = confirm('confirm thefirst password')
+    // console.log(option);
+    // if(option){
+    //     console.log('user loged out sucessfully');
+    // }
+    
+    //     alert('thid an alert message');
+    // const name = prompt('enter your name');
+    // console.log('you are',name);
+
+    </script>
+</body>
+</html>
