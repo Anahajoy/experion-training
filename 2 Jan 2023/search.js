@@ -9,6 +9,8 @@ for (let i = 0; i < number.length; i++) {
         console.log('The number is in ' + (i + 1) + 'position') ;
         let j = 0;
         console.log(j);
+        
+       
     }
     
     

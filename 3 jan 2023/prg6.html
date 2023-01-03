@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table{
+        background-color: rgb(106, 195, 165);
+        height: 100px;
+        width: 500px;
+    }
+    th{
+        background-color: rgb(25, 113, 90);
+    }
+        
+  
+body{
+    
+    margin-top: 30px;
+    margin-left: 350px;
+}
+    
+</style>
+<body>
+    <table>
+        <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>id</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody id = "content">
+
+    </tbody>
+    </table>
+    <script>
+         const users = [
+            {
+            name: 'user1',
+            email: 'user1@gmail.com',
+            id: 12
+            },
+            {
+                name: 'user2',
+                email: 'user2@gmail.com',
+                id: 17
+            }
+        ];
+    const target = document.getElementById('content');
+    users.forEach(user=>{
+        const row = `<tr>
+                        <td>${user.name}</td>
+                        <td>${user.email}</td>
+                        <td>${user.id}</td>
+                        <td>
+                            <button onclick= "dele()">
+                                DELETE</button></td>
+                    </tr>`;
+            target.innerHTML +=row;
+    })
+    function dele() {
+     
+       document.getElementById('content').deleteRow(0);
+}
+
+            
+    </script>
+</body>
+</html>
